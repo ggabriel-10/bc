@@ -182,6 +182,7 @@ input, select, textarea {
 		width: 68em;
 	}
 
+
 		@media screen and (max-width: 1680px) {
 
 			.container {
@@ -558,6 +559,13 @@ input, select, textarea {
 		.row.gtr-150 {
 			margin-top: -75px;
 			margin-left: -75px;
+		}
+		.gtr-150 h2{
+			padding-top: 2rem;
+			color: gold;
+		}
+		.gtr-150 p{
+			color: white;
 		}
 
 			.row.gtr-150 > * {
