@@ -1121,6 +1121,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
+			
 
 			.row {
 				display: flex;
@@ -1366,7 +1367,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
+			
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2419,6 +2420,7 @@ input, select, textarea {
 				color: inherit;
 				text-decoration: none;
 				color: gold;
+				
 			}
 
 		#intro p.style3 {
@@ -2426,6 +2428,19 @@ input, select, textarea {
 			width: 48em;
 			margin: 0 auto;
 			color: rgb(255, 255, 255);
+		}
+
+		#intro p.style2 {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			gap: 14rem;
+			color: black;
+			border: 1px solid gold;
+			background-color: #9e9e00;
+		}
+		#intro p.style2 img{
+			border-radius: 1rem;
 		}
 
 /* Features */
@@ -2640,6 +2655,10 @@ input, select, textarea {
 				height: auto;
 			}
 
+			#intro p.style2 img{
+				width: 10%;
+			}
+
 	}
 
 /* Large */
@@ -2689,6 +2708,9 @@ input, select, textarea {
 					font-size: 2.25em;
 				}
 
+				#intro p.style2 img{
+					width: 10%;
+				}	
 		/* Footer */
 
 			#footer {
@@ -2794,6 +2816,14 @@ input, select, textarea {
 				#footer .feature-list > .row > :nth-child(2) > section {
 					border-top: 0;
 					padding-top: 0;
+				}
+
+				#intro p.style2 {
+					gap: 7rem;
+				}
+
+				#intro p.style2 img{
+					width: 10%;
 				}
 
 		}
@@ -2989,12 +3019,43 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
+		#intro p.style2 {
+			gap: 5rem;
+			
+		}
+
+		#intro p.style2 img{
+			width: 10%;
+		}
+
 		/* Basic */
 			#logo img {
 				width: 100%;
 				height: auto;
 			}
 			}
+
+	@media screen and (max-width: 600px) {
+		#intro p.style2 {
+			gap: 1rem;
+		}
+
+		#intro p.style2 img{
+			width: 20%;
+		}
+	}	
+	
+	@media screen and (max-width: 500px) {
+		#intro p.style2 {
+			gap: 1rem;
+
+		}
+
+		#intro p.style2 img{
+			display: none;
+		}
+	}
+		
 
 			body, input, select, textarea {
 				line-height: 1.5em;
